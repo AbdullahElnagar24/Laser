@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laser Data Transmission Project</title>
+    <style>
+        /* إعداد الصفحة العامة */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* رأس الصفحة */
+        header {
+            background-color: #0078D7;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* القوائم للتنقل بين الصفحات */
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(47, 22, 22);
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* تصميم المحتوى */
+        section {
+            margin: 20px auto;
+            max-width: 900px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #0078D7;
+        }
+
+        h3 {
+            margin-top: 20px;
+        }
+
+        /* تنسيق المعرض */
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 250px;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        /* تنسيق الفيديو */
+        .video-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        iframe {
+            border: none;
+            border-radius: 8px;
+        }
+
+        /* التذييل */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- رأس الصفحة -->
+<header>
+    <h1>Laser Data Transmission Project</h1>
+    <p>Welcome to our project! Explore the different sections below.</p>
+</header>
+
+<!-- القوائم للتنقل بين الصفحات -->
+<nav>
+    <ul>
+        <li><a href="#intro" >Home</a></li>
+        <li><a href="#project-details">Project Details</a></li>
+        <li><a href="#pricing">Pricing & Delivery</a></li>
+    </ul>
+</nav>
+
+<!-- قسم المقدمة (الصفحة الأولى) -->
+<section id="intro">
+    <h2>Introduction</h2>
+    <p>This project demonstrates the concept of transmitting and receiving data using a laser beam. It’s an innovative approach to wireless communication, offering a fast and efficient method for data transfer.</p>
+</section>
+
+<!-- قسم التفاصيل و الفيديو (الصفحة الثانية) -->
+<section id="project-details">
+    <h2>Images and Videos</h2>
+    <div class="gallery">
+        <img src="image1.jpg" alt="Project Image 1">
+        <img src="image2.jpg" alt="Project Image 2">
+        <img src="image3.jpg" alt="Project Image 3">
+    </div>
+
+    <h3>Project Video</h3>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" title="Project Video" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <p>This video shows how the laser transmitter and receiver work, demonstrating the transmission of data using a laser beam.</p>
+</section>
+
+<!-- قسم الأسعار والتوصيل (الصفحة الثالثة) -->
+<section id="pricing">
+    <h2>Pricing</h2>
+    <p>Our product is available at the following prices:</p>
+    <ul>
+        <li>Basic Kit: $100</li>
+        <li>Advanced Kit: $250</li>
+        <li>Premium Kit: $500</li>
+    </ul>
+
+    <h2>Delivery Information</h2>
+    <p>We offer worldwide delivery. Delivery times vary based on your location:</p>
+    <ul>
+        <li>Local (within the country): 3-5 days</li>
+        <li>International: 7-14 days</li>
+    </ul>
+
+    <h3>Shipping Costs:</h3>
+    <ul>
+        <li>Domestic Shipping: $10</li>
+        <li>International Shipping: $30</li>
+    </ul>
+</section>
+
+<!-- التذييل -->
+<footer>
+    <p>&copy; 2024 Laser Project | Designed by Abdullah</p>
+</footer>
+
+</body>
+</html>
